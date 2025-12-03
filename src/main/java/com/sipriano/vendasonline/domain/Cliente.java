@@ -1,4 +1,4 @@
-package br.com.sipriano.vendasonline.domain;
+package main.java.com.sipriano.vendasonline.domain;
 
 public class Cliente {
 
