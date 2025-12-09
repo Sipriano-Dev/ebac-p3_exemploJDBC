@@ -43,6 +43,7 @@ public class ProdutoDAOTest {
         produto.setDescricao("Mouse de pc");
         produto.setNome("Mouse");
         produto.setValor(BigDecimal.TEN);
+        produto.setCategoria("Eletrônicos");
         produtoDao.cadastrar(produto);
         return produto;
     }

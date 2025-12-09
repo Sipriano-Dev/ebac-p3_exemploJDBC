@@ -275,6 +275,7 @@ public class VendaDAOTest {
         produto.setDescricao("Mouse de pc");
         produto.setNome("Mouse");
         produto.setValor(valor);
+        produto.setCategoria("Eletrônicos");
         produtoDao.cadastrar(produto);
         return produto;
     }
@@ -286,6 +287,7 @@ public class VendaDAOTest {
         cliente.setCidade("Campinas");
         cliente.setEnd("Endereço");
         cliente.setEstado("SP");
+        cliente.setNacionalidade("Brasileira");
         cliente.setNumero(88);
         cliente.setTel(1999999999L);
         clienteDao.cadastrar(cliente);
